@@ -48,7 +48,7 @@ def task2(target_version, config_file):
         older_versions = [v for v in all_versions
                           if version_compare(v, target_version) < 0]
 
-        print("\nВерсии старше чем ", target_version)
+        print("\nВерсии старше чем: ", target_version)
         for version in sorted(older_versions, key=cmp_to_key(version_compare)):
             print(version)
 

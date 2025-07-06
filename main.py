@@ -24,7 +24,7 @@ def task1():
         timezone = data['clocks']['213']['offsetString']
 
         if i == 0:
-            print("'человекопонятный' формат и временная зона:")
+            print("'Человекопонятный' формат и временная зона:")
             print(f"время: {human_time}")
             print(f"временная зона: {timezone}")
             print()
